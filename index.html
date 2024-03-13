@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/assets/reset.css" rel="stylesheet" />
+    <link href="/assets/style.css" rel="stylesheet" />
+    <title>To-do List</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="input-group">
+        <label for="todo-add"></label>
+        <textarea
+          id="todo-add"
+          type="text"
+          placeholder="Nuovo task"
+          required
+        ></textarea>
+        <button id="submit-btn" type="submit" onclick="handleSubmit()">
+          Invia
+        </button>
+      </div>
+
+      <div id="myUl"></div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

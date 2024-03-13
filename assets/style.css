@@ -1,0 +1,5 @@
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 2rem;
+}
