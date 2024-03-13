@@ -1,5 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    202deg,
+    rgba(158, 13, 20, 1) 0%,
+    rgba(60, 0, 176, 1) 100%
+  );
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  padding: 2rem;
+}
+
 .input-group {
   display: flex;
   justify-content: center;
-  margin-block-start: 2rem;
+  margin-block: 2rem;
+  width: 80%;
+}
+
+#todo-add {
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#submit-btn {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+ul li {
+  padding: 0.4em;
+}
+
+ul li span {
+  margin-left: 1rem;
 }
