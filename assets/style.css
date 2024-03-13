@@ -51,6 +51,11 @@ main {
   border: 1px solid black;
 }
 
+.ulContainer {
+  width: 100%;
+  text-align: center;
+}
+
 ul li {
   padding: 0.4em;
 }
