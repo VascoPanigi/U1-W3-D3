@@ -57,9 +57,15 @@ main {
 }
 
 ul li {
+  text-align: left;
   padding: 0.4em;
 }
 
-ul li span {
+ul li button {
   margin-left: 1rem;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2em;
 }
